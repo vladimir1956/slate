@@ -1,6 +1,10 @@
 html{
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 *,
 *::after,
 *::before{
@@ -27,10 +31,9 @@ ul{
     border: none;
     background-color: transparent;
     cursor: pointer;
-}.header {
 }
 .container {
-    max-width: 1200px;
+    max-width: 1097px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -38,22 +41,30 @@ ul{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
 }
 .header {
-}
-.container {
-}
-.header__container {
+    height: 119px;
+    color: #fff;
+    background-color: #000;
+    padding-top: 38px;
+    margin-bottom: 38px;
 }
 .logo {
 }
 .menu {
+    width: 293px;
+    height: 44px;
+    background-color: rgb(20, 7, 57);
+    border: 2px solid red;
 }
 .menu__list {
+    display: flex;
+    align-items: center;
 }
 .menu__item {
+}
+.menu__item:not(:last-child) {
+    margin-right: 40px;
 }
 .menu__link {
 }
