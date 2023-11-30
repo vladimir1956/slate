@@ -4,6 +4,8 @@ html{
 body{
     margin: 0;
     padding: 0;
+    max-width: 1579px;
+    margin: 0 auto;
 }
 *,
 *::after,
@@ -430,6 +432,7 @@ img.left-screen{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
 }
 .galary__container{
     position: relative;
@@ -510,6 +513,203 @@ ul.article-grid--down{
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 2;
-	padding: 12px 25px;
+	padding: 12px 25px; 
+}
+.partners {
+    margin: 0px;
+    background-color: #801b1b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 484px;
+}
+.partners__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1539px;
+    height: 384px;
+    padding: 0px 20px;
+    background-color: #5C5C5C;
+}
+.partners__title {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px; /* 119.231% */
+    letter-spacing: 0.2px;
+}
+.partners__desc {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    font-family: Graphik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.2px;
+}
+.partners__symbols {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 74px;
+}
+a.symbols-link {
+    margin-right: 0px;
+}
+img.symbols-img {
+   
+}
+.partners__btn {
+    margin-top: 48px;
+    align-self: center;
+	background-color: #000;
+	border:1px solid #fff;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 2;
+	padding: 12px 25px; 
+}
+.reviews {
+    margin: 0;
+    padding: 50px 20px 150px 20px;
+    border: 1px solid white;
+    background-color: #000;
+    color:#fff;
+    }
+.reviews__container {
+    border: 1px solid white;
+    background-color: #000;
+    color:#fff;
+}
+h2.reviews__title {
+    text-align: center;
+    font-family: Graphik;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 62px; /* 119.231% */
+    letter-spacing: 0.2px;
+}
+.reviews__cards {
+    max-width: 880px;
+    margin: 0 auto;
+    background-color: #801b1b;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.reviews__card {
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    background: var(--dark-background, #181818);
+}
+.reviews__personal {
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    gap: 10px;
+}
+.reviews__personal--img {
+    border-radius: 50px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.reviews__personal--data {
     
+}
+.reviews__personal--name {
+    margin: 0;
+}
+.reviews__personal--job {
+    margin: 0;
+}
+.reviews__card--review {
+    margin-top: 30px;
+}
+
+.footer {
+    height: 443px;
+    background-color: #a73838;
+}
+.footer__container {
+    width: 930px;
+    height: 243px;
+    margin: 0 auto;
+    background-color: #801b1b;
+    color: #FFF;
+    display: block;
+}
+.footer__columns{
+    padding-top: 130px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.footer__column {
+    width: 121px;
+    height: 153px;
+    border: 1px solid white;
+}
+.footer__column--four{
+    padding-left: 30px;
+    width: 250px;
+}
+.footer__column--place{
+    display: flex;
+}
+.footer__column--phone{
+    display: flex;
+}
+.social-item{
+    padding: 20px 0px;
+    margin-right: 20px;
+}
+.footer__title {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.footer__img {
+   margin-right: 10px;
+}
+.footer__list--social{
+    display: flex;
+
+}
+.list-reset {
+}
+.footer__item {
+    padding-bottom: 15px;
+}
+.footer__link {
+    
+}
+.footer-column {
+}
+.footer-text {
+}
+.footer-mail {
+}
+.social {
+}
+.social-item {
+}
+.social-link {
+}
+.social-link-1 {
+}
+.social-link-2 {
+}
+.social-link-3 {
 }
