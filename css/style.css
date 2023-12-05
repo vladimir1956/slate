@@ -363,6 +363,25 @@ p.opportunity__decs {
 }
 
 .right-items__one--subtitle {
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.1px;
+    margin-bottom: 10px;
+}
+.right-items__two--subtitle{
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+    letter-spacing: 0.1px;
+    margin-bottom: 10px;
+}
+.right-items__three--subtitle{
+    display: flex;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -371,10 +390,16 @@ p.opportunity__decs {
     margin-bottom: 10px;
 }
 img.img-right {
-    display: block;
-    
+    display: block; 
 }
 .right-items__one--link {
+    padding: 0px 0px 14px 10px;
+}
+.right-items__two--link {
+    padding: 0px 0px 16px 10px;
+}
+.right-items__three--link {
+    padding: 0px 0px 18px 10px;
 }
 .right-items__one--text{
     font-size: 16px;
@@ -404,14 +429,18 @@ img.img-right {
     margin-left: 8px;
     font-family: var(--second-family);
 }
-.right-items{
+ul.right-items{
     border: 3px solid red;
+    margin-top: -10px;
 }
 .right-items__one {
- border: 2px solid yellow;
+    border: 2px solid yellow;
 }
 .right-items__two{
-    padding-bottom: 15px;
+    border: 2px solid yellow;
+}
+.right-items__three{
+    border: 2px solid yellow;
 }
 .extensions {
     margin: 0;
@@ -525,13 +554,15 @@ img.img-right {
     width: 312.325px;
     height: 195.184px;
     flex-shrink: 0;
+    margin-top: 90px;
+    margin-right: 220px;
 }
 img.left-screen{
-    margin-bottom: -165px;
-    
+    margin: 90px 70px;
+    max-width: 100%;
 }
 .extensions__right {
-    padding: 20px 0px 0px 0px;
+    padding: 75px 0px 0px 14px;
     width:470px;
     height: 620px;
     border-radius: 10px;
@@ -575,13 +606,12 @@ img.left-screen{
     align-self: center;
     text-align: center;
     color:  #FFF;
-    font-family: Graphik;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: 25px; 
     letter-spacing: 0.2px;
-    padding: 7px 30px;
+    padding: 14px 50px;
     background: var(--primary, #4452FE);
     box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
 }
@@ -747,7 +777,7 @@ img.symbols-img {
 }
 .reviews {
     margin: 0;
-    padding: 160px 20px 50px 20px;
+    padding: 170px 20px 70px 20px;
     border: 1px solid white;
     background-color: #000;
     color:#fff;
@@ -757,8 +787,13 @@ img.symbols-img {
     border: 1px solid white;
     background-color: #000;
     color:#fff;
+    padding-bottom: 50px;
 }
 h2.reviews__title {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    padding-bottom: 70px;
     text-align: center;
     font-size: 52px;
     font-style: normal;
@@ -773,23 +808,23 @@ h2.reviews__title {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
 }
 .reviews__card {
-    padding: 40px 40px 40px 40px;
+    padding: 30px;
     border-radius: 10px;
-    border: 1px solid #DEDEDE;
+    border: 4px solid #740606;
     background: var(--dark-background, #181818);
 }
 .reviews__personal {
     display: flex;
     align-items: center;
     justify-content:start;
-    gap: 10px;
+    gap: 30px;
 }
 .reviews__personal--img {
     border-radius: 50px;
-background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .reviews__personal--data {
     
@@ -809,7 +844,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     background-color: #a73838;
 }
 .footer__container {
-    width: 930px;
+    width: 990px;
     height: 243px;
     margin: 0 auto;
     background-color: #801b1b;
@@ -817,8 +852,9 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     display: block;
 }
 .footer__columns{
-    padding-top: 185px;
+    padding-top: 128px;
     display: flex;
+    margin-left: 28px;
     gap: 90px;
     /*
     display: grid;
@@ -833,7 +869,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     width: 150px;
 }
 .footer__column--four{
-    padding-left: 120px;
+    padding-left: 130px;
     width: 450px;
 }
 .footer__column--place{
@@ -843,7 +879,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     display: flex;
 }
 .social-item{
-    padding: 25px 0px;
+    padding: 20px 0px 0px 3px;
     margin-right: 20px;
 }
 .footer__title {
@@ -851,7 +887,7 @@ background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     padding-bottom: 40px;
 }
 .footer__img {
-   margin-right: 10px;
+   margin-right: 5px;
 }
 .footer__list--social{
     display: flex;
